@@ -17,3 +17,7 @@ Follow the instructions in Assignment.md and upload the completeded code to canv
 - [Phaser Docs](https://photonstorm.github.io/phaser3-docs/)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [Electron Docs](https://electronjs.org/docs)
+
+### Phaser Tutorials
+- [Getting Started](http://phaser.io/tutorials/getting-started-phaser3)
+- [Simple Platformer](http://phaser.io/tutorials/making-your-first-phaser-3-game)

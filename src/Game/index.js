@@ -9,7 +9,6 @@ const player = {
 
 // Phaser setup
 function create () {
-  cursors = this.input.keyboard.createCursorKeys();
   graphics = this.add.graphics({
     fillStyle: { color: 0xeeeeee },
     lineStyle: { width: 3, color: 0xeeeeee },

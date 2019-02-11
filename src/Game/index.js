@@ -1,8 +1,11 @@
 // Import outside libraries
 const Phaser = require('phaser');
 
-let xPos = 0;
-let yPos = 300;
+const player = {
+  x: 400,
+  y: 300,
+  radius: 10
+};
 
 // Phaser setup
 function create () {
@@ -14,14 +17,14 @@ function create () {
 }
 
 function update(totalTime, deltaTime) {
-  xPos += 20 * deltaTime / 1000;
+  player.x += 20 * deltaTime / 1000;
 
   // Always clear at the top of update
   graphics.clear();
 
   graphics.save();
-  graphics.translate(xPos, 300);
-  graphics.fillCircle(0, 0, 5);
+  graphics.translate(player.x, player.y);
+  graphics.fillCircle(0, 0, player.radius);
   graphics.restore();
 }
 

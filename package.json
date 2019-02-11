@@ -1,0 +1,25 @@
+{
+  "name": "hw-4-phaser-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATLAS-Alt-Arcade/HW-4-Phaser-Intro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ATLAS-Alt-Arcade/HW-4-Phaser-Intro/issues"
+  },
+  "homepage": "https://github.com/ATLAS-Alt-Arcade/HW-4-Phaser-Intro#readme",
+  "dependencies": {
+    "electron": "^4.0.4",
+    "phaser": "^3.16.1",
+    "save": "^2.3.3"
+  }
+}

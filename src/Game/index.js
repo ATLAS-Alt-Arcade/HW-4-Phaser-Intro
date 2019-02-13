@@ -1,6 +1,12 @@
 // Import outside libraries
 const Phaser = require('phaser');
 
+const config = {
+  type: Phaser.AUTO,
+  width: 800,
+  height: 600,
+};
+
 const player = {
   x: 400,
   y: 300,
@@ -27,15 +33,11 @@ function update(totalTime, deltaTime) {
   graphics.restore();
 }
 
-const config = {
-  type: Phaser.AUTO,
-  width: 800,
-  height: 600,
-  scene: {
-      create: create,
-      update: update
-  }
-};
+
+config.scene = {
+  create: create,
+  update: update
+}
 
 let game;
   

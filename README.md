@@ -10,8 +10,8 @@
 - At the top level of the project folder in your terminal run the command `npm start`
 - To open a debug window, select the toggle developer tools option on the window bar under view.
 
-## Assignment: Add Feedback To Your Controller
-Follow the instructions in Assignment.md and upload the completeded code to canvas.
+## Assignment: Simple Player Interactions
+Follow the instructions in Assignment.md and upload the completed code to canvas.
 
 ### Useful Links
 - [Phaser Docs](https://photonstorm.github.io/phaser3-docs/)

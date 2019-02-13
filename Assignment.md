@@ -54,4 +54,4 @@ Now that you have the collision code, change something about the draw functions 
 
 ## Submission
 
-Submit your code to canvas under HW-4
+Submit your code to canvas under HW-4. DO NOT UPLOAD THE node_modules FOLDER
